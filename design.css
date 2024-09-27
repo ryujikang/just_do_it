@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.description {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Board styles */
+.board {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Post List styles */
+.post-list {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.post-list th, .post-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.post-list th {
+    background-color: #f2f2f2;
+}
+
+/* Page Navigation styles */
+.page-nav {
+    text-align: center;
+}
+
+.page-nav a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+
+.page-nav .page {
+    background-color: #f2f2f2;
+}
+
+.page-nav a:hover {
+    background-color: #ddd;
+}
+
+.page-nav .prev,
+.page-nav .next {
+    font-weight: bold;
+}
+
+/* 텍스트 뷰 스타일 */
+.text_view {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text_view .save,
+.text_view .delete {
+    font-weight: bold;
+}

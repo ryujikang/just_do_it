@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charest="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>게시판</title>
+</head>
+
+<body>
+    <!-- 설명 -->
+    <div class="description">
+        <p>*** 안녕하세요. 프로젝트를 만들것입니다.</p>
+        <p>*** 1. HTML파일로 글을 기록할 웹페이지를 만들어 봅시다.</p>
+    </div>
+
+    <!-- 게시판 -->
+    <div class="board">
+        <h1>게시판</h1>
+
+        <!-- 표 -->
+        <table class="post-list">
+            <!-- 각 행의 종류 -->
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>날짜</th>
+                    <th>제목</th>
+                </tr>
+            </thead>
+
+            <!-- 각 행의 내용 -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2024-09-27</td>
+                    <td><a href="#">첫 번째 게시글</a></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        <!-- 버튼 -->
+        <div class="page-nav">
+            <a href="#" class="prev">이전</a>
+            <a href="#" class="page">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <!-- Add more page numbers as needed -->
+            <a href="#" class="next">다음</a>
+        </div>
+
+        <!-- 텍스트 뷰 -->
+        <div class="text_view">
+            <form>
+                <fieldset>
+                    <textarea cols="50" rows="15"></textarea>
+                    <button type="submit" class="save">저장</button>
+                    <button type="reset" class="delete">삭제</button>
+                </fieldset>
+            </form>
+        </div>
+    
+
+
+    </div>
+</body>
+</html>
